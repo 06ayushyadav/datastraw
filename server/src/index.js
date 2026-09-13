@@ -27,7 +27,7 @@ const allowedOrigins = [process.env.CLIENT_URL];
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://datastraw-yel0.onrender.com/"
+    origin: process.env.CLIENT_URL || "https://datastraw-oyx8.onrender.com/"
   })
 );
 

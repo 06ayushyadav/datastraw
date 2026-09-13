@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  "https://datastraw-yel0.onrender.com/api";
+  "https://datastraw-oyx8.onrender.com/api";
 
 const apiClient = axios.create({
   baseURL: API_URL,
