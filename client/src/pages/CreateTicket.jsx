@@ -48,7 +48,7 @@ const CreateTicket = () => {
                 customer_email: form.customer_email.trim(),
                 subject: form.subject.trim(),
                 description: form.description.trim(),
-                priority:form.priority
+                priority: form.priority
             });
 
             toast.success("Ticket created successfully");
@@ -216,6 +216,7 @@ const CreateTicket = () => {
                             <button
                                 type="submit"
                                 disabled={loading}
+                                onClick={() => navigate("/")}
                                 className="flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
                             >
                                 <Send size={17} />

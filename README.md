@@ -93,8 +93,7 @@ This was added to make the system more useful for a real support team because ur
 
 ### Deployment
 
-* Frontend: [Add platform]
-* Backend: Render
+* Frontend & Backend: Render
 * Database: MongoDB Atlas
 
 ---
